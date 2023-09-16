@@ -1,0 +1,17 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "SAM : amg.py",
+            "type": "python",
+            "request": "launch",
+            "program": "./scripts/amg.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args" : ["--checkpoint", "ckpt/sam_vit_h_4b8939.pth", "--model-type", "vit_h", "--input", "input/_frame1587.jpg", "--output", "output/"]
+        }
+    ]
+}

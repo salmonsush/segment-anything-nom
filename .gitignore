@@ -33,7 +33,7 @@ model_ts*.txt
 
 # editor settings
 .idea
-.vscode
+# .vscode 오히려 들고 다니는게 편해보였음.
 _darcs
 
 # demo 
